@@ -1,6 +1,11 @@
 ti-cgt-c6x (8.0.0B4-0ubuntu0~ppa1+dannf.1) UNRELEASED; urgency=medium
 
+  [ dann frazier ]
   * Review comments
+
+  [ Steve Langasek ]
+  * add lintian overrides for sourceless binaries; we know the license
+    allow this here.
 
  -- dann frazier <dann.frazier@canonical.com>  Fri, 05 Sep 2014 13:03:25 -0600
 
