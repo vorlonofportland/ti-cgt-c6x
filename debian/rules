@@ -5,3 +5,7 @@
 override_dh_clean:
 	dh_clean
 	cat debian/copyright.in ./usr/share/doc/ti/cgt-c6x/ti-cgt-c6x_*.spdx > debian/copyright
+
+override_dh_install:
+	dh_install
+	rm -f debian/ti-cgt-c6x/usr/bin/libdisassemble_c6x.so

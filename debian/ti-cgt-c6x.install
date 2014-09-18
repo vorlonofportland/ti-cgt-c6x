@@ -1,4 +1,5 @@
-usr/bin/* usr/bin
+usr/bin
+usr/bin/libdisassemble_c6x.so usr/lib
 usr/share/ti/cgt-c6x/include usr/share/ti/cgt-c6x
 usr/share/ti/cgt-c6x/lib/libc.a usr/share/ti/cgt-c6x/lib
 usr/share/ti/cgt-c6x/lib/lnk.cmd usr/share/ti/cgt-c6x/lib
